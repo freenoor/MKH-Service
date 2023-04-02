@@ -1,0 +1,9 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
+    #home_slider .content{​​​​​​​
+        padding-left: 140px;
+        width:  unset !important;
+    }​​​​​​​
+  	.sticky-container#sticky-desktop .sticky-phone:hover {
+    	transform: translateX(-145px) !important;
+	}
+}

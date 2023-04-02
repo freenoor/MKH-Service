@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Axiforma-Thin;
+  font-style: normal;
+  font-weight: 100;
+  src: url(../../assets/fonts/axiforma/Axiforma-Thin.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Axiforma-Light;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../../assets/fonts/axiforma/Axiforma-Light.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Axiforma-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../assets/fonts/axiforma/Axiforma-Regular.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Axiforma-Medium;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../../assets/fonts/axiforma/Axiforma-Medium.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Axiforma-SemiBold;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../../assets/fonts/axiforma/Axiforma-SemiBold.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Axiforma-Bold;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../assets/fonts/axiforma/Axiforma-Bold.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Axiforma-ExtraBold;
+  font-style: normal;
+  font-weight: 800;
+  src: url(../../assets/fonts/axiforma/Axiforma-ExtraBold.otf);
+  font-display: swap;
+}

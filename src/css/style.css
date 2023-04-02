@@ -1,0 +1,4231 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Axiforma-Regular" !important;
+  overflow-x: hidden;
+  color: #2d2d2d !important;
+}
+
+img.sticky-icons-img {
+  width: 35%;
+}
+
+@media (min-width: 1800px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1670px !important;
+  }
+  #home_slider .col-sm-5 {
+    flex: 0 0 40%;
+    max-width: 40%;
+    -webkit-flex: 0 0 40%;
+  }
+  #home_slider .col-sm-7 {
+    flex: 0 0 60%;
+    max-width: 60%;
+    -webkit-flex: 0 0 60%;
+  }
+}
+
+#header_block .header_content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+  display: -webkit-flex;
+}
+
+#home_slider .col-sm-5,
+#home_slider .col-sm-7 {
+  padding: 0;
+}
+
+#home_slider .col-sm-5 {
+  background: #1f2335;
+  display: flex;
+  display: -webkit-flex;
+}
+
+#home_slider .content {
+  padding-left: 140px;
+  align-self: center;
+  padding-right: 50px;
+}
+
+#home_slider .content .title {
+  color: #ffffff;
+  font-size: 52px;
+  font-family: "Axiforma-Bold";
+  margin-bottom: 0;
+}
+
+#home_slider .content .subtitle {
+  font-size: 24px;
+  color: white;
+}
+
+#home_slider .content .text {
+  font-size: 15px;
+  color: white;
+  font-family: "Axiforma-Light";
+  line-height: 26px;
+  letter-spacing: 0.3px;
+  margin-top: 40px;
+}
+
+#home_slider .social_info {
+  position: absolute;
+  bottom: 50px;
+  width: 50%;
+}
+
+#home_slider .slider_btn {
+  margin-top: 50px;
+  display: flex;
+  display: -webkit-flex;
+}
+
+#home_slider .slider_btn a {
+  color: white;
+  font-size: 17px;
+  line-height: 31px;
+  font-family: "Axiforma-SemiBold";
+  letter-spacing: 0.34px;
+  padding: 22px 43px;
+  background: #ea2129;
+}
+
+#home_slider .slider_btn img,
+#block_partner .partner_btn img {
+  margin-left: 15px;
+}
+
+#home_slider .social_info .social_text {
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: "Axiforma-Light";
+}
+
+#home_slider .social_info .social_icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  display: -webkit-flex;
+  list-style: none;
+  border-top: 1px solid #ea2129;
+}
+
+#footer .social_icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  display: -webkit-flex;
+  list-style: none;
+}
+
+#home_slider .social_info .social_icons li,
+#footer .social_icons li {
+  width: 46px;
+  height: 43px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#home_slider .social_info .active_socialIcon,
+#footer .active_socialIcon {
+  background: #ea2129;
+}
+
+#home_slider .social_info .social_icons li a,
+#footer .social_icons li a {
+  align-self: center;
+}
+
+#header_block {
+  padding: 20px 0 0;
+  box-shadow: 0px 3px 6px #0000001a;
+}
+
+#header_block nav {
+  background-color: transparent !important;
+  padding: 0.5rem 0 0;
+}
+
+#header_block nav a {
+  color: #2d2d2d;
+  font-size: 15px;
+  font-family: "Axiforma-SemiBold";
+  padding: 10px 15px;
+  display: flex;
+  display: -webkit-flex;
+}
+
+/*#header_block .logo, #header_block .logo a{
+    display: flex;
+    display: -webkit-flex;
+}*/
+
+#home_slider {
+  margin-top: -138px;
+}
+
+#header_block nav .nav-item {
+  margin-left: 20px;
+}
+
+#header_block .dropdown-toggle::after {
+  content: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/black-arrow.svg");
+  border: 0 !important;
+  transform: rotate(90deg);
+  margin-left: 10px;
+}
+/* .otherPages #header_block nav a:active {
+    color: #EA2129;
+}
+.otherPages #header_block nav a:hover {
+    color: #EA2129;
+} */
+
+#homepage #header_block nav .nav-item.contact_item {
+  background: #ea2129;
+}
+.otherPages #header_block nav .nav-item.contact_item {
+  margin-bottom: 18px;
+}
+
+#header_block nav .nav-item.contact_item img {
+  margin-left: 10px;
+  margin-top: -3px;
+}
+
+#header_block nav .nav-item.contact_item a {
+  padding: 10px 30px;
+}
+
+/*#slider_content img{
+    width: 100%;
+}*/
+
+#slider_content .btn-slider-right .right_arrow,
+#slider_content .btn_slider-left .left_arrow {
+  content: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/red_arrow.svg");
+  width: 20px;
+  width: 10px;
+  display: flex;
+  display: -webkit-flex;
+}
+
+#slider_content .btn-slider-right .right_arrow {
+  transform: rotate(180deg);
+}
+
+button.btn-slider-right.slick-arrow {
+  position: absolute;
+  bottom: 43px;
+  right: 375px;
+  background: transparent;
+  border: none;
+  z-index: 1;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    margin-top: 20px;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    padding: 0;
+    border-radius: 0;
+    background: #1f2335;
+    opacity: 95%;
+  }
+  #header_block .hamburger-menu {
+    display: none;
+  }
+  .otherPages .navbar-expand-lg .navbar-nav .dropdown-menu {
+    opacity: 1;
+    border: none;
+    padding-top: 32px;
+    background: transparent;
+  }
+  .otherPages
+    .navbar-expand-lg
+    .navbar-nav
+    .dropdown-menu
+    .dropdown-background {
+    box-shadow: 0px 3px 6px #0000001a;
+    background: white;
+  }
+  .otherPages #header_block nav .nav-item .dropdown-menu {
+    padding-left: 0;
+  }
+  .otherPages #header_block nav .nav-item .dropdown-menu .dropdown-item {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 20px;
+    padding-left: 20px;
+  }
+}
+
+#header_block nav .nav-item .dropdown-menu .dropdown-item {
+  font-size: 14px;
+  padding: 20px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  font-family: "Axiforma-Regular";
+  color: white;
+}
+
+.otherPages #header_block nav .nav-item .dropdown-menu .dropdown-item,
+#schwerpunkte_page .page_titles .subtitle {
+  color: #2d2d2d;
+}
+
+#header_block nav .nav-item .dropdown-menu .dropdown-item,
+#header_block nav .nav-item .dropdown-menu {
+  min-width: 15rem;
+  padding-left: 20px;
+}
+
+#header_block nav .nav-item .dropdown-menu .dropdown-item.last {
+  border-bottom: 0 !important;
+}
+
+#header_block nav .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: transparent !important;
+}
+
+#slider_content .btn_slider-left.slick-arrow {
+  position: absolute;
+  bottom: 43px;
+  right: 170px;
+  background: transparent;
+  border: none;
+  z-index: 1;
+  padding: 0;
+}
+
+#slider_content .count_item {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  display: -webkit-flex;
+  color: #ea2129;
+  font-family: "Axiforma-Medium";
+  font-size: 16px;
+  right: 210px;
+  align-items: center;
+}
+
+#slider_content .count_item .active-number {
+  font-size: 24px;
+}
+
+#slider_content .count_item #clicks {
+  display: flex;
+  display: -webkit-flex;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+#slider_content .count_item #clicks li {
+  display: none;
+}
+
+#slider_content .count_item #clicks .active-number {
+  display: block;
+}
+
+#slider_content .count_item .line {
+  margin: 0px 20px;
+}
+
+#slider_content .count_item .slider_number {
+  opacity: 50%;
+  margin-bottom: -3px;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+#home_slider .social_info .social_icons li:hover,
+#footer .social_icons li:hover {
+  background: #ea2129;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+@media (min-width: 1800px) {
+  #block_partner .container,
+  #contact .container,
+  #footer .container,
+  #blog .container,
+  .pages_aboutUs .container,
+  #die-kanzlei_info .container,
+  #die-kanzlei_slider .container,
+  #die-kanzlei_slider1 .container,
+  #jobs_page .page_titles .container,
+  #jobs_page .jobs_content .container,
+  #steuerfachangestellte_page .steuerfachangestellte_content .container,
+  .leistungen_content #moreInfo .container,
+  #subCategory_info .container,
+  .schwerpunkte_content .container,
+  .leistungen-submenuBlock .container,
+  .schwerpunkte-submenuBlock .container,
+  .datenschuts_content .container,
+  .impressum_content .container,
+  #pdf-block .container,
+  #video-block .container,
+  #block_leistungen.logistik-page .container,
+  #block_leistungen.handwerk-page .container,
+  #block_leistungen.industrie-page .container,
+  #block_leistungen.handel-page .container,
+  #block_leistungen.freiberufler-page .container,
+  #signature-block .container {
+    max-width: 1394px !important;
+  }
+}
+
+#block_partner {
+  margin: 150px 0;
+}
+
+#block_partner .imageContent img,
+.pages_aboutUs .imageContent img,
+#signature-block img {
+  width: 100%;
+}
+
+#block_partner .whiteRectangle {
+  width: max-content;
+}
+
+#block_partner .imageContent {
+  position: relative;
+}
+
+#block_partner .imageContent .whiteRectangle {
+  box-shadow: 0px 0px 40px #00000014;
+  padding: 30px;
+  position: absolute;
+  background: white;
+  bottom: -70px;
+  left: -70px;
+}
+
+#block_partner .whiteRectangle .txt {
+  color: #2d2d2d;
+  font-size: 18px;
+  font-family: "Axiforma-Bold";
+  text-align: center;
+}
+
+#block_partner .whiteRectangle .number {
+  font-size: 54px;
+  color: #ea2129;
+  font-family: "Axiforma-Thin";
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#block_partner .textContent .title,
+#die-kanzlei_info .text_info .title,
+#die-kanzlei_slider .text_info .title,
+#die-kanzlei_slider1 .text_info .title,
+.leistungen_content #moreInfo .title {
+  color: #2d2d2d;
+  font-size: 40px;
+  font-family: "Axiforma-ExtraBold";
+}
+
+#block_partner .textContent .text1 {
+  color: #2d2d2d;
+  font-size: 16px;
+  font-family: "Axiforma-Medium";
+  line-height: 28px;
+}
+
+#block_partner .textContent .text2 {
+  color: #1f2335;
+  font-size: 15px;
+  font-family: "Axiforma-Light";
+  letter-spacing: 0.3px;
+  line-height: 28px;
+}
+
+#block_partner .textContent {
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  padding: 0 0 0 70px;
+}
+
+#block_partner .textContent .txt {
+  align-self: center;
+}
+
+#block_partner .partner_btn a,
+.pages_aboutUs .textContent .aboutUs_btn a {
+  background: #ea2129;
+  color: white;
+  font-size: 15px;
+  line-height: 27px;
+  font-family: "Axiforma-SemiBold";
+  padding: 22px 43px;
+}
+
+#block_partner .partner_btn {
+  display: flex;
+  display: -webkit-flex;
+  margin-top: 30px;
+}
+
+#block_leistungen .title {
+  font-size: 40px;
+  color: #2d2d2d;
+  font-family: "Axiforma-ExtraBold";
+  text-align: center;
+}
+
+#block_leistungen .subtitle {
+  color: #2d2d2d;
+  font-size: 16px;
+  font-family: "Axiforma-Medium";
+  text-align: center;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+#block_leistungen {
+  margin-bottom: 150px;
+}
+
+#block_leistungen .content {
+  border: 1px solid #f0f0f0;
+  padding: 50px 45px;
+  text-align: center;
+}
+
+#block_leistungen .content .text,
+#block_believeUs .content .text {
+  margin-bottom: 0;
+  color: #83848b;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.28px;
+}
+
+#block_leistungen .content .title1,
+#block_believeUs .content .title1 {
+  color: #2d2d2d;
+  font-size: 20px;
+  font-family: "Axiforma-Medium";
+  margin: 1rem 0;
+}
+
+#block_leistungen .content:hover {
+  background: white;
+  box-shadow: 0px 46px 40px #00000029;
+  border: none;
+}
+
+#block_attributes {
+  background: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/attribute_img.png");
+  height: 754px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 70px;
+}
+
+#block_attributes .container,
+#block_attributes .container .row,
+#block_attributes .container .col-sm-6 {
+  height: 100%;
+}
+
+#block_attributes .content {
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+}
+
+#block_attributes .content .txt_content {
+  align-self: center;
+  background: #ea2129;
+  padding: 50px;
+}
+
+#block_attributes ul {
+  padding-left: 0;
+}
+
+#block_attributes ul li {
+  display: flex;
+  display: -webkit-flex;
+  margin-top: 30px;
+}
+
+#block_attributes .content .txt_content img {
+  align-self: flex-start;
+  margin-right: 30px;
+}
+
+#block_attributes .content .txt_content p {
+  margin-bottom: 0;
+}
+
+#block_attributes .content .txt_content .title {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.48px;
+  font-family: "Axiforma-SemiBold";
+}
+
+#block_attributes .content .txt_content .attr_title {
+  font-size: 20px;
+  color: white;
+  font-family: "Axiforma-SemiBold";
+  line-height: 25px;
+}
+
+#block_attributes .content .txt_content .text {
+  color: #ffc9c9 !important;
+  font-size: 14px;
+  font-family: "Axiforma-Light";
+  line-height: 25px;
+}
+
+#contact .content {
+  box-shadow: 0px -4px 40px #0000001f;
+  padding: 70px 100px;
+  z-index: 2;
+  position: relative;
+  background: white;
+}
+
+#contact .title {
+  color: #2d2d2d;
+  font-size: 34px;
+  font-family: "Axiforma-Bold";
+}
+
+#contact .subtitle {
+  color: #2d2d2d;
+  font-size: 15px;
+  font-family: "Axiforma-Medium";
+  margin-bottom: 30px;
+}
+
+#contact #contact_form .field input,
+#contact #contact_form textarea,
+#apply-formular .field input,
+#apply-formular .apply-label {
+  width: 100%;
+  background: #f6f6f6;
+  border: 1px solid #f6f6f6;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+#contact #contact_form .field input::placeholder {
+  color: #83848b;
+  font-size: 15px;
+}
+
+#contact #contact_form .comment {
+  height: 142px;
+  margin-bottom: 30px;
+}
+
+#contact #contact_form textarea {
+  height: 100%;
+}
+
+#contact #contact_form button,
+#apply-formular .contact_btn button {
+  width: 100%;
+  background: #ea2129;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Axiforma-SemiBold";
+  padding: 15px;
+  border: 1px solid #ea2129;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#contact #contact_form button img {
+  margin-left: 15px;
+}
+
+@media (min-width: 576px) {
+  #footer .col-sm-2 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    -webkit-flex: 0 0 20%;
+  }
+  #block_leistungen .col-sm-3,
+  #block_leistungen .col-sm-3 a {
+    display: flex;
+    display: -webkit-flex;
+  }
+  .pages_aboutUs .textMobile {
+    display: none !important;
+  }
+}
+
+#footer {
+  background: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/footer-img.webp");
+  /* height: 797px; */
+  padding: 350px 0 50px 0;
+  margin-top: -250px;
+}
+
+#footer h3 {
+  font-size: 20px;
+  color: white;
+  font-family: "Axiforma-Medium";
+  margin-bottom: 35px;
+}
+
+#footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+#footer li a,
+#footer p {
+  color: #cccccc;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+#footer #footerLogo {
+  margin-bottom: 30px;
+}
+
+#footer .social_icons {
+  margin-top: 30px;
+}
+
+#footer .line {
+  width: 100%;
+  height: 1px;
+  background: #ea2129;
+  margin: 0 15px;
+  margin-top: 50px;
+}
+
+#footer .copyRight {
+  text-align: center;
+  color: #cccccc;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+#blog .title {
+  color: #ea2129;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ea2129;
+  font-size: 135px;
+  font-family: "Axiforma-Bold";
+  opacity: 0.2;
+  margin-left: -30px;
+  margin-bottom: 0;
+}
+
+#blog .subtitle {
+  color: #2d2d2d;
+  font-size: 40px;
+  font-family: "Axiforma-Bold";
+  margin-top: -100px;
+  z-index: 1;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#blog .text_content {
+  box-shadow: 0px 10px 30px #0000001f;
+  padding: 25px 25px;
+  margin-bottom: 20px;
+}
+
+#blog {
+  margin-bottom: 100px;
+}
+
+#blog .blog_date .date,
+.steuerfachangestellte_content #info_block .content .date {
+  color: #ea2129;
+  font-size: 13px;
+  font-family: "Axiforma-Medium";
+}
+
+#blog .blog_date .name,
+.steuerfachangestellte_content #info_block .content .name {
+  color: #bcbdc3;
+  font-size: 12px;
+}
+
+#blog .blog_date .date:before,
+.steuerfachangestellte_content #info_block .content .date:before {
+  content: "|";
+  margin-right: 10px;
+}
+
+#blog .blog_date .name::before,
+.steuerfachangestellte_content #info_block .content .name:before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #ea2129;
+  margin: 2px 10px;
+}
+
+#blog .blog_date {
+  margin-bottom: 10px;
+}
+
+#blog .blog_title {
+  color: #2d2d2d;
+  font-size: 18px;
+  font-family: "Axiforma-SemiBold";
+  line-height: 28px;
+}
+
+#blog .text {
+  color: #83848b;
+  font-size: 14px;
+  margin-top: 20px;
+  min-height: 64px;
+}
+
+#contact #contact_form .field input:focus,
+#contact #contact_form textarea:focus {
+  border: 1px solid #ea2129 !important;
+  background: #fdfafa;
+  outline: none;
+}
+
+#blog img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  #header_block {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/right-menu-bars.svg");
+  }
+  .navbar-light .navbar-toggler {
+    border: none !important;
+  }
+  #header_block .logo a {
+    align-self: baseline;
+  }
+  #header_block .dropdown-menu.show {
+    background-color: transparent;
+  }
+  #home_slider .col-sm-7 {
+    display: none;
+  }
+  #home_slider .col-sm-5 {
+    max-width: 100%;
+    flex: 100%;
+    -webkit-flex: 100%;
+  }
+  #home_slider {
+    margin-top: -1px;
+  }
+  #header_block {
+    background: #1f2335;
+  }
+  #header_block nav {
+    display: none;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 991px) {
+  #questions_block .question {
+    font-size: 16px !important;
+    margin-left: 15px !important;
+  }
+  .info-box .info {
+    margin-left: 15px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  #questions_block .question {
+    font-size: 14px !important;
+    margin-left: 15px !important;
+  }
+  #questions_block .btn.btn-link img {
+    width: 12px;
+  }
+  #questions_block .info-box {
+    padding-right: 0 !important;
+  }
+  .info-box .info {
+    margin-left: 15px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #home_slider .content {
+    max-width: 510px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #blog .col-sm-4 {
+    max-width: 100%;
+    flex: 100%;
+    -webkit-flex: 100%;
+    margin-bottom: 30px;
+  }
+  #contact .content {
+    padding: 30px 30px 10px;
+  }
+  #footer .col-sm-2,
+  #signature-block .col-sm-4 {
+    max-width: 100%;
+    flex: 100%;
+    -webkit-flex: 100%;
+  }
+  #signature-block .col-sm-4 {
+    margin-bottom: 30px;
+  }
+  #footer h3 {
+    margin-bottom: 15px;
+    margin-top: 50px;
+    font-size: 18px;
+  }
+  #footer .social_icons {
+    margin-bottom: 20px;
+  }
+  .jobs_content #ourValues .description_word ul li {
+    font-size: 14px !important;
+  }
+  .jobs_content #ourValues .description_word ul {
+    /* justify-content: space-between !important; */
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  .jobs_content #ourValues .img-description {
+    font-size: 20px !important;
+  }
+  .jobs_content #ourValues .col-sm-5 .img2,
+  .jobs_content #ourValues .col-sm-5 .img4 {
+    width: 65% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #home_slider .content {
+    max-width: 690px;
+  }
+  #blog .text_content {
+    padding: 25px 15px;
+  }
+  #blog .blog_title {
+    font-size: 18px;
+  }
+  #blog .blog_title br {
+    display: none;
+  }
+  #footer .col-sm-2 {
+    flex: 33.333333%;
+    max-width: 33.33333%;
+    -webkit-flex: 33.333333%;
+  }
+  #contact .content {
+    padding: 70px 50px;
+  }
+  .jobs_content #ourValues .description_word ul li {
+    font-size: 16px !important;
+  }
+  #apply-formular {
+    padding: 35px 35px !important;
+  }
+  #apply-formular .apply-label {
+    width: 55% !important;
+  }
+  #apply-formular .up-btn {
+    width: 43% !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .jobs_content #ourValues .img-description {
+    line-height: initial !important;
+  }
+  #home_slider .col-sm-5 {
+    justify-content: center;
+  }
+  #home_slider .content .title {
+    font-size: 40px;
+  }
+  #home_slider .content .subtitle {
+    font-size: 22px;
+  }
+  #home_slider .content .text,
+  #block_partner .textContent .text2,
+  #contact .subtitle {
+    font-size: 14px;
+  }
+  #home_slider .social_info {
+    position: initial;
+    width: initial;
+    margin-top: 50px;
+  }
+  #home_slider .slider_btn a {
+    padding: 18px 43px;
+  }
+  #home_slider .content {
+    padding: 20px 0 50px;
+  }
+  #block_partner .textContent .title,
+  #block_leistungen .title,
+  #blog .subtitle,
+  #contact .title {
+    font-size: 26px;
+  }
+  #block_partner .textContent {
+    padding-left: 0;
+  }
+  #block_partner {
+    margin: 100px 0 !important;
+  }
+  #block_partner .partner_btn a {
+    padding: 12px 20px;
+  }
+  #block_partner .whiteRectangle .number {
+    font-size: 24px;
+  }
+  #block_partner .whiteRectangle .txt {
+    margin-bottom: 0;
+  }
+  #block_partner .imageContent .whiteRectangle {
+    padding: 20px;
+  }
+  #block_partner .imageContent {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+  }
+  #block_partner .imageContent .whiteRectangle {
+    position: initial;
+    align-self: center;
+    margin-top: -54px;
+  }
+  #block_leistungen .col-sm-3 {
+    max-width: 50%;
+    flex: 50%;
+    -webkit-flex: 50%;
+    margin-bottom: 30px;
+  }
+  #block_leistungen .content .title1 {
+    font-size: 18px;
+  }
+  #block_leistungen .content {
+    padding: 35px 10px;
+  }
+  #block_leistungen,
+  #blog {
+    margin-bottom: 90px;
+  }
+  #block_attributes .content .txt_content {
+    padding: 20px;
+  }
+  #block_attributes .content .txt_content .title {
+    font-size: 22px;
+  }
+  #block_attributes .content .txt_content .title br {
+    display: none;
+  }
+  #block_attributes .content .txt_content img {
+    margin-right: 15px;
+    width: 28px;
+  }
+  #block_attributes {
+    background-position: 37%;
+  }
+  #blog .title {
+    font-size: 64px;
+  }
+  #blog .subtitle {
+    margin-top: -50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #home_slider .row {
+    position: relative;
+  }
+  #home_slider .col-sm-5 {
+    position: revert;
+  }
+  #home_slider .content {
+    width: 100%;
+    position: absolute;
+    padding-left: 0px;
+    padding-right: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #home_slider .content .content_txt,
+  #home_slider .social_info {
+    max-width: 930px;
+    align-self: center;
+  }
+  #home_slider .signature {
+    width: 25%;
+    margin-bottom: 30px;
+  }
+  #home_slider .social_info {
+    width: 100%;
+    position: initial;
+    margin-top: 30px;
+  }
+  #header_block nav a {
+    padding: 0.5rem 0.5rem;
+  }
+  #home_slider .content .title {
+    width: 35%;
+    font-size: 34px;
+    line-height: 46px;
+    margin-bottom: 10px;
+  }
+  #home_slider .content .subtitle {
+    font-size: 18px;
+    width: 35%;
+  }
+  #home_slider .content .text {
+    font-size: 14px;
+    width: 35%;
+    margin-top: 0;
+  }
+  #home_slider .slider_btn {
+    margin-top: 0;
+  }
+  #home_slider .slider_btn a {
+    padding: 10px 20px;
+  }
+  #home_slider {
+    margin-top: -1px;
+  }
+  #header_block {
+    background: #1f2335;
+  }
+  #home_slider .social_info .social_icons {
+    width: 35%;
+  }
+  #block_partner .imageContent .whiteRectangle {
+    padding: 25px;
+    left: -20px;
+  }
+  #block_partner .textContent {
+    padding: 0;
+  }
+  #block_leistungen .col-sm-3 {
+    max-width: 50%;
+    flex: 50%;
+    -webkit-flex: 50%;
+    margin-bottom: 30px;
+  }
+  #footer .col-sm-2 {
+    flex: 33.333333%;
+    max-width: 33.33333%;
+    -webkit-flex: 33.333333%;
+  }
+  #jobs-position .content {
+    padding: 25px !important;
+  }
+  .jobs_content #ourValues .description_word ul li {
+    font-size: 20px !important;
+  }
+  #block_partner {
+    margin: 100px 0 80px !important;
+  }
+  #jobs-position {
+    margin-bottom: 80px !important;
+  }
+  #header_block nav .nav-item a {
+    color: white;
+  }
+  #header_block .dropdown-toggle::after {
+    content: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/left-arrow.svg");
+  }
+  #apply-formular .apply-label {
+    width: 60% !important;
+  }
+  #apply-formular .up-btn {
+    width: 38% !important;
+  }
+  #home_slider,
+  #home_slider .col-sm-5 {
+    max-height: 700px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 575px) {
+  #home_slider .col-sm-7 {
+    display: none;
+  }
+  #slider2_content1.container {
+    padding: 0 !important;
+  }
+  #header_block {
+    background: #1f2335;
+  }
+  #home_slider {
+    margin-top: -1px;
+  }
+  .container {
+    padding: 0 30px !important;
+  }
+  #home_slider .col-sm-5,
+  #home_slider .col-sm-7 {
+    padding: 0 15px;
+  }
+  #home_slider .content,
+  #block_leistungen .title,
+  #block_leistungen .subtitle {
+    padding: 0 30px;
+  }
+  #home_slider .content_txt {
+    padding: 40px 0 70px;
+    text-align: center;
+  }
+  #home_slider .content .title {
+    font-size: 38px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  #home_slider .content .subtitle {
+    font-size: 15px;
+    line-height: 27px;
+  }
+  #home_slider .content .text {
+    margin-top: 25px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Axiforma-Light";
+  }
+  #home_slider .slider_btn {
+    justify-content: center;
+  }
+  #home_slider .social_info {
+    width: initial;
+    position: initial;
+    margin-bottom: 50px;
+  }
+  #home_slider .slider_btn a,
+  #block_partner .partner_btn a {
+    width: 100%;
+  }
+  #block_partner {
+    margin-top: 70px;
+    margin-bottom: 60px;
+  }
+  #block_partner .whiteRectangle .txt {
+    font-size: 8px;
+    margin-bottom: 0px;
+  }
+  #block_partner .whiteRectangle .number {
+    font-size: 24px;
+    font-family: "Axiforma-Light";
+  }
+  #block_partner .imageContent .whiteRectangle {
+    position: initial;
+    align-self: center;
+    margin-top: -54px;
+  }
+  #block_partner .imageContent {
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+  }
+  #block_partner .textContent {
+    padding: 0;
+    margin-top: 25px;
+    text-align: center;
+  }
+  #block_partner .textContent .title,
+  #block_leistungen .title {
+    font-size: 22px;
+  }
+  #block_partner .textContent .text1,
+  #block_leistungen .subtitle {
+    font-family: "Axiforma-SemiBold";
+    font-size: 12px;
+    line-height: 22px;
+  }
+  #block_partner .textContent .text2 {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+  }
+  #block_leistungen .subtitle br,
+  #block_attributes .content .txt_content .title br,
+  #block_attributes .content .txt_content .text br,
+  #blog .title,
+  #blog .blog_title br,
+  #blog .text br,
+  #footer p br {
+    display: none;
+  }
+  .otherPages #blog .title {
+    display: block;
+    font-size: 26px !important;
+  }
+  #block_leistungen .container,
+  #contact .container {
+    padding: 0 !important;
+  }
+  #block_leistungen .subtitle {
+    margin-bottom: 30px;
+  }
+  #block_leistungen img {
+    width: 45px;
+  }
+  #block_leistungen .content .title1,
+  #blog .blog_title {
+    font-size: 14px;
+    font-family: "Axiforma-SemiBold";
+    margin-bottom: 5px;
+  }
+  #block_leistungen .content .text,
+  #blog .text,
+  #contact #contact_form .field input::placeholder,
+  #contact #contact_form textarea::placeholder,
+  #footer .copyRight {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  #block_leistungen .content:hover {
+    box-shadow: 0px 2px 26px #0000001a;
+  }
+  #block_leistungen,
+  #blog {
+    margin-bottom: 0;
+  }
+  #block_attributes .container,
+  #block_attributes .container .row,
+  #block_attributes .container .col-sm-6 {
+    padding: 0 !important;
+    height: initial;
+  }
+  #block_attributes .content .txt_content {
+    background: rgba(234, 33, 41, 0.95);
+    mix-blend-mode: multiply;
+    padding: 72px 50px;
+  }
+  #block_attributes .content .txt_content .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #block_attributes .content .txt_content img {
+    width: 25px;
+  }
+  #block_attributes .content .txt_content .attr_title {
+    font-size: 16px;
+  }
+  #block_attributes .content .txt_content .text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  #blog .subtitle {
+    margin-top: 0;
+    font-size: 22px;
+    font-family: "Axiforma-ExtraBold";
+    margin-bottom: 0px;
+  }
+  #blog .text_content {
+    box-shadow: none;
+    padding: 25px 20px;
+  }
+  #blog .blog_date .date {
+    font-size: 12px;
+    line-height: 23px;
+    font-family: "Axiforma-Medium";
+  }
+  #blog .blog_title {
+    line-height: 20px;
+  }
+  #blog .col-sm-4 {
+    margin-top: 30px;
+  }
+  #blog .text {
+    margin-top: 15px;
+  }
+  #blog .blog_content {
+    box-shadow: 0px 6px 20px #0000001f;
+  }
+  #block_attributes {
+    background: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/attr-mobile-img.jpg");
+    height: 887px;
+  }
+  #contact {
+    margin-top: 30px;
+    box-shadow: 0px 6px 20px #0000001f;
+  }
+  #contact .content {
+    padding: 70px 30px;
+    text-align: center;
+  }
+  #contact .title {
+    font-size: 22px;
+  }
+  #contact .subtitle {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  #footer #footerLogo {
+    width: 78px;
+  }
+  #footer p,
+  #footer li a {
+    font-size: 12px;
+  }
+  #footer h3 {
+    margin-bottom: 15px;
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  #footer ul {
+    margin-bottom: 0;
+  }
+  #footer .copyRight {
+    margin-top: 30px;
+  }
+  #footer {
+    padding-bottom: 30px;
+    background-position: center;
+    padding: 50px 0 30px 0;
+    margin-top: 0;
+    background-size: cover;
+  }
+  #home_slider .slider_btn a {
+    padding: 15px 43px;
+  }
+  #questions_block .text-box {
+    width: 85%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #home_slider .row {
+    position: relative;
+  }
+  #home_slider .col-sm-5 {
+    position: revert;
+  }
+  #home_slider .content {
+    width: 100%;
+    position: absolute;
+    padding-left: 0px;
+    padding-right: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  #home_slider .content .content_txt,
+  #home_slider .social_info {
+    max-width: 1110px;
+    align-self: center;
+  }
+  #home_slider .social_info {
+    width: 100%;
+  }
+  #home_slider .content .content_txt {
+    width: 1110px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1799px) {
+  .schwerpunkte_content #block_believeUs {
+    margin-top: 80px !important;
+    padding: 80px 0 80px !important;
+  }
+  #home_slider .content .title,
+  #home_slider .content .subtitle,
+  #home_slider .content .text,
+  #home_slider .social_info .social_icons {
+    width: 32%;
+  }
+  #home_slider .content .title {
+    font-size: 42px;
+    line-height: 48px;
+    margin-bottom: 10px;
+  }
+  #home_slider .content .subtitle {
+    font-size: 22px;
+  }
+  #home_slider .content_txt .signature {
+    width: 27%;
+    margin-bottom: 30px;
+  }
+  #home_slider .content .text,
+  #home_slider .slider_btn {
+    margin-top: 0;
+  }
+  #home_slider .slider_btn a {
+    padding: 12px 43px;
+  }
+  #block_partner .imageContent .whiteRectangle {
+    left: -30px;
+  }
+  #block_leistungen .content .title1 {
+    font-size: 19px;
+  }
+  #block_leistungen .content {
+    padding: 50px 12px;
+  }
+  #blog .title {
+    margin-left: -20px;
+  }
+  #signature-block .content .text {
+    padding: 20px 10px 0 !important;
+  }
+  #home_slider,
+  #home_slider .col-sm-5 {
+    max-height: 1000px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 1800px) {
+  /*#blog .blog_title br{
+        display: none;
+    }*/
+}
+
+@media (min-width: 1800px) {
+  #home_slider,
+  #home_slider .col-sm-5 {
+    max-height: 1500px;
+    overflow: hidden;
+  }
+  #home_slider .content .content_txt,
+  #home_slider .social_info {
+    max-width: 1670px;
+    width: 100%;
+  }
+  #home_slider .content .text,
+  #home_slider .social_info .social_icons {
+    width: 35%;
+  }
+}
+
+@media (min-width: 2200px) {
+  #home_slider .content .text,
+  #home_slider .social_info .social_icons {
+    width: 33%;
+  }
+}
+
+@media (min-width: 2700px) {
+  #home_slider .content .title,
+  #home_slider .content .subtitle,
+  #home_slider .content .text,
+  #home_slider .social_info .social_icons {
+    width: 500px;
+  }
+}
+
+#header_block #menu__toggle {
+  opacity: 0;
+}
+
+#header_block #menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+
+#header_block #menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+#header_block #menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#header_block .menu__btn.cross-active {
+  content: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/cross.svg") !important;
+  width: 14px;
+}
+
+#header_block #menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  right: 0;
+}
+
+#header_block .menu__btn {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 1;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+#header_block .menu__btn {
+  content: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/right-menu-bars.svg") !important;
+}
+
+#header_block .menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  margin: 0;
+  padding: 100px 0 50px;
+  list-style: none;
+  background-color: #1f2335;
+  transition-duration: 0.25s;
+}
+
+#header_block .menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: white;
+  transition-duration: 0.25s;
+  position: relative;
+}
+
+#header_block .menu__box .submenu {
+  display: none;
+}
+
+#header_block .logo {
+  z-index: 1;
+}
+
+#header_block .menu__box {
+  width: 100%;
+  height: auto;
+}
+
+.hamburger-menu li a {
+  color: white;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "Axiforma-SemiBold";
+  padding: 15px 0;
+}
+
+.hamburger-menu .dropdown img {
+  transform: rotate(90deg);
+}
+
+#header_block .menu__box .submenu {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.hamburger-menu .menu__item.nav-item.contact_item a {
+  width: fit-content;
+  background: #ea2129;
+  padding: 10px 20px;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.hamburger-menu .menu__item.nav-item.contact_item {
+  margin-top: 20px;
+}
+
+.hamburger-menu .menu__item.nav-item.contact_item img {
+  margin-left: 10px;
+  margin-top: -1px;
+}
+
+.otherPages #header_block nav a {
+  color: #2d2d2d;
+}
+
+.otherPages #header_block .dropdown-toggle::after {
+  content: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/black-arrow.svg");
+}
+
+.otherPages #header_block nav .nav-item.contact_item a {
+  color: white;
+}
+
+.otherPages #header_block {
+  box-shadow: 0px 3px 6px #0000001a;
+}
+
+#breadcrumbs_nav {
+  margin: 70px 0;
+  margin-top: 170px;
+}
+
+#breadcrumbs_nav ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  display: -webkit-flex;
+}
+
+#breadcrumbs_nav ul a {
+  color: #2d2d2d;
+  font-size: 20px;
+}
+
+#breadcrumbs_nav ul .breadcrumbs_active {
+  color: #ea2129;
+  font-family: "Axiforma-SemiBold";
+}
+
+#breadcrumbs_nav ul .breadcrumbs_active:before {
+  content: "|";
+  margin: 0 15px;
+}
+
+.page_titles .title,
+.jobs_content #ourValues .title {
+  color: #2d2d2d;
+  font-size: 40px;
+  font-family: "Axiforma-ExtraBold";
+  line-height: 86px;
+  text-align: center;
+}
+
+.page_titles .subtitle,
+#die-kanzlei_slider1 .subtitle {
+  color: #83848b;
+  font-size: 16px;
+  font-family: "Axiforma-Medium";
+  line-height: 23px;
+  text-align: center;
+}
+
+#die-kanzlei_slider1 .subtitle {
+  text-align: left;
+}
+
+#block_partner.die-kanzlei_servicesBlock .text2,
+#die-kanzlei_info .info .text {
+  font-size: 14px;
+  color: #83848b;
+  line-height: 23px;
+  font-family: "Axiforma-Light";
+  margin-bottom: 0;
+}
+
+#block_partner.die-kanzlei_servicesBlock .whiteRectangle .txt {
+  font-size: 12px;
+}
+
+#block_partner.die-kanzlei_servicesBlock .whiteRectangle .number {
+  font-size: 38px;
+}
+
+.pages_aboutUs .textContent .title {
+  color: #2d2d2d;
+  font-size: 40px;
+  font-family: "Axiforma-ExtraBold";
+}
+
+.pages_aboutUs .textContent .text1 {
+  color: #83848b;
+  font-size: 16px;
+  font-family: "Axiforma-SemiBold";
+  line-height: 28px;
+}
+
+.pages_aboutUs .textContent .text2,
+.pages_aboutUs .textMobile {
+  color: #83848b;
+  font-size: 14px;
+  font-family: "Axiforma-Light";
+  line-height: 23px;
+}
+
+.pages_aboutUs .textContent .aboutUs_btn img {
+  margin-left: 15px;
+}
+
+.pages_aboutUs .textContent .aboutUs_btn {
+  margin-top: 50px;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.pages_aboutUs .textContent .txt {
+  padding-right: 110px;
+}
+
+.pages_aboutUs {
+  margin-top: 70px;
+}
+
+.die-kanzlei_servicesBlock {
+  background: #f9f9f9;
+  margin-top: 80px !important;
+  padding: 100px 0 150px;
+  margin-bottom: 70px !important;
+}
+
+#die-kanzlei_info .text_info .text,
+#die-kanzlei_slider .text_info .text,
+#die-kanzlei_slider1 .text_info .text {
+  font-size: 16px;
+  font-family: "Axiforma-Light";
+  color: #83848b;
+  margin-top: 25px;
+  /*margin-bottom: 35px;*/
+  line-height: 28px;
+}
+
+#die-kanzlei_info .info .subtitle,
+.leistungen_content #moreInfo .title1 {
+  color: #2d2d2d;
+  font-size: 24px;
+  font-family: "Axiforma-ExtraBold";
+}
+
+#die-kanzlei_info .info .text {
+  line-height: 28px !important;
+}
+
+#die-kanzlei_info {
+  margin-bottom: 100px;
+}
+
+#die-kanzlei_slider,
+#die-kanzlei_slider1 {
+  height: fit-content;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+#die-kanzlei_slider .slick-initialized .slick-slide img,
+#die-kanzlei_slider1 .slick-initialized .slick-slide img {
+  width: 100%;
+  /* object-fit:none; */
+}
+
+#die-kanzlei_slider .slick-initialized .slick-slide,
+#die-kanzlei_slider1 .slick-initialized .slick-slide {
+  transform: scale(1);
+  margin: 0px 15px;
+}
+
+#home_slider .slick-slide img {
+  width: 100%;
+  height: 100%;
+}
+#home_slider .slick-list {
+  height: 100%;
+}
+#home_slider .slick-dotted.slick-slider {
+  height: 100%;
+}
+#home_slider #slider_content {
+  height: 100%;
+}
+#home_slider .slick-track {
+  height: 100%;
+}
+#die-kanzlei_slider .slick-initialized .slick-slide.slick-center,
+#die-kanzlei_slider1 .slick-initialized .slick-slide.slick-center {
+  /* transform: scaleY(1.2); */
+  transition: all;
+}
+
+#die-kanzlei_slider .slick-list,
+#die-kanzlei_slider1 .slick-list {
+  /* overflow: visible; */
+  white-space: break-spaces;
+}
+
+#slider2_content,
+#slider2_content1 {
+  padding: 0;
+  /*margin-top: 50px;*/
+}
+
+.otherPages #header_block {
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  background: white;
+  top: 0;
+}
+
+.otherPages #contact .content {
+  z-index: initial;
+}
+
+#blog.blog_page .title {
+  font-size: 40px;
+  font-family: "Axiforma-ExtraBold";
+  color: #2d2d2d;
+  -webkit-text-fill-color: unset;
+  -webkit-text-stroke-width: 0;
+  -webkit-text-stroke-color: unset;
+  opacity: 1;
+  margin-bottom: 30px;
+  margin-left: 0;
+  text-align: center;
+}
+
+#blog.blog_page .text_content img,
+#blog-steps #next-button img {
+  width: initial;
+}
+
+#blog.blog_page .showMore_btn {
+  color: #ea2129;
+  display: flex;
+  display: -webkit-flex;
+  font-size: 13px;
+  font-family: "Axiforma-Medium";
+}
+
+#blog.blog_page .showMore_btn img {
+  margin-left: 15px;
+  width: 5px;
+}
+
+.blog_page .last_post,
+.blog_page #blog-steps .row {
+  margin-bottom: 70px;
+}
+
+.blog_page #blog-steps .row {
+}
+
+.blog_page #blog-steps .step,
+.blog_page .blog_count #clicks li {
+  display: none;
+}
+
+.blog_page #blog-steps .step.active-step,
+.blog_page .blog_count #clicks .active-number {
+  display: block !important;
+}
+
+.blog_page .blog_count #clicks {
+  display: flex;
+  display: -webkit-flex;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.blog_page .blog_count,
+.blog_page .blog_count .count_item {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.blog_page .blog_count #clicks .active-number {
+  color: #ea2129;
+  font-size: 16px;
+  font-family: "Axiforma-Light";
+  align-self: center;
+}
+
+.blog_page .blog_count #clicks .active-number:after {
+  color: #ea2129;
+  content: "|";
+  margin: 0 15px;
+}
+
+.blog_page .blog_count .inactive-nr,
+.leistungen-submenuBlock .box-3images .text1 {
+  color: #83848b;
+  font-size: 16px;
+  font-family: "Axiforma-Light";
+  margin-bottom: 0;
+  align-self: center;
+}
+
+.leistungen-submenuBlock .box-3images .text1 {
+  margin-bottom: 40px !important;
+}
+
+#blog-steps #next-button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #ea2129;
+  font-family: "Axiforma-Light";
+  margin-left: 10px;
+}
+
+#blog-steps #next-button img {
+  margin-left: 15px;
+  margin-top: -2px;
+}
+
+#blog.blog_page.blog_post .blog_date.post,
+#blog.blog_page.blog_post .main_image,
+#block_believeUs .page_titles {
+  margin-bottom: 50px;
+}
+
+#blog.blog_page.blog_post .text_content.text {
+  box-shadow: none;
+  padding: 0;
+}
+
+#blog.blog_page.blog_post .text_content.text p,
+.leistungen_content #moreInfo .text {
+  color: #83848b;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+#blog.blog_page.blog_post .subtitle {
+  font-size: 16px;
+  font-family: "Axiforma-Medium";
+  line-height: 28px;
+  color: #2d2d2d;
+  margin-top: 0;
+  text-align: center;
+}
+
+.blog_page.blog_post .showMore_btn img {
+  width: initial;
+}
+
+.blog_page.blog_post .last_post {
+  margin-bottom: 120px;
+}
+
+#jobs_page .page_titles .title {
+  text-align: initial;
+  line-height: 65px;
+}
+
+#jobs_page .page_titles .subtitle {
+  color: #2d2d2d;
+  font-size: 30px;
+  font-family: "Axiforma-Medium";
+  text-align: initial;
+  line-height: 65px;
+}
+
+#jobs_page .page_titles .text,
+.leistungen_content #moreInfo .txt,
+.leistungen-submenuText .text1 {
+  color: #83848b;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+#jobs-position {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+#jobs-position .content {
+  box-shadow: 0px 10px 30px #00000014;
+  padding: 50px;
+  height: 100%;
+  max-height: 263px;
+}
+
+#jobs-position .content .category {
+  color: #2d2d2d;
+  font-size: 14px;
+}
+
+#jobs-position .content .line {
+  width: 70px;
+  height: 1px;
+  background: #e3e3e3;
+  margin-bottom: 1rem;
+}
+
+#jobs-position .content .category_title {
+  color: #2d2d2d;
+  font-size: 22px;
+  font-family: "Axiforma-SemiBold";
+}
+
+#jobs-position .content .description {
+  color: #83848b;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+#jobs-position .content .nr_position {
+  color: #ea2129;
+  font-size: 14px;
+  font-family: "Axiforma-SemiBold";
+  margin-bottom: 0;
+  margin-top: 80px;
+}
+
+#jobs-position .row {
+  margin-bottom: 10px;
+}
+
+#jobs-position .col-sm-4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#jobs-position .col-sm-4:hover {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#jobs-position .col-sm-4:hover .content {
+  background: #ea2129;
+  box-shadow: 0px 10px 30px #ea212926;
+  transition: 0.5s all;
+}
+
+#jobs-position .col-sm-4:hover .content .category,
+#jobs-position .col-sm-4:hover .content .category_title,
+#jobs-position .col-sm-4:hover .content .description,
+#jobs-position .col-sm-4:hover .content .nr_position {
+  color: #ffffff;
+}
+
+#jobs-position .col-sm-4:hover .content .line {
+  background: white;
+}
+
+.jobs_content #ourValues .title,
+.steuerfachangestellte_content .title,
+.leistungen-submenuText .title,
+.leistungen-submenuBlock .box-3images .title {
+  text-align: left;
+}
+
+.jobs_content #ourValues .text,
+.steuerfachangestellte_content p {
+  color: #83848b;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.jobs_content #ourValues .description_word ul {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  padding-left: 0;
+  list-style: none;
+}
+
+.jobs_content #ourValues .description_word ul li {
+  color: #ea2129;
+  opacity: 30%;
+  font-size: 24px;
+  font-family: "Axiforma-ExtraBold";
+}
+
+.jobs_content #ourValues .description_word ul li:hover {
+  opacity: 100%;
+  transition: 0.5s all;
+}
+
+.jobs_content #ourValues .text-row {
+  margin-bottom: 100px;
+}
+
+.jobs_content #ourValues .col-sm-7 img {
+  width: 100%;
+}
+
+.jobs_content #ourValues .col-sm-5 {
+  position: relative;
+}
+
+.jobs_content #ourValues .col-sm-5 .img2 {
+  width: 70%;
+  position: absolute;
+  bottom: 0;
+}
+
+.jobs_content #ourValues .image-row1,
+.jobs_content #ourValues .image-row3,
+.jobs_content #ourValues .image-row2 {
+  margin-bottom: 30px;
+}
+
+.jobs_content #ourValues .col-sm-5 .img4 {
+  position: absolute;
+  right: 15px;
+  width: 70%;
+}
+
+.jobs_content #ourValues .image-row4 {
+  margin-bottom: 150px;
+}
+
+.jobs_content #ourValues .img-description {
+  color: #ea2129;
+  font-size: 24px;
+  margin-bottom: 0;
+  font-family: "Axiforma-ExtraBold";
+  line-height: 65px;
+}
+
+.steuerfachangestellte_content .subtitle,
+.steuerfachangestellte_content #info_block .content .title {
+  color: #2d2d2d;
+  font-size: 20px;
+  font-family: "Axiforma-ExtraBold";
+  text-transform: capitalize;
+  margin: 50px 0 40px;
+}
+
+.steuerfachangestellte_content .description_list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.steuerfachangestellte_content .description_list li {
+  display: flex;
+  display: -webkit-flex;
+  font-size: 16px;
+  color: #83848b;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.steuerfachangestellte_content .description_list li img {
+  align-self: flex-start;
+  margin: 5px 10px 0 0;
+}
+
+.steuerfachangestellte_content #info_block .col-sm-8 {
+  padding-right: 50px;
+}
+
+.steuerfachangestellte_content #info_block .content {
+  border: 1px solid #e3e3e3;
+  padding: 30px;
+}
+
+.steuerfachangestellte_content #info_block .content .title {
+  margin: initial !important;
+  text-transform: none;
+  margin-bottom: 15px !important;
+}
+
+.steuerfachangestellte_content #info_block .content .title2 {
+  font-size: 14px;
+  color: #83848b;
+  margin-bottom: 20px;
+  line-height: 55px;
+}
+
+.steuerfachangestellte_content #info_block .content .jobs_btn {
+  display: flex;
+  display: -webkit-flex;
+  margin-bottom: 50px;
+}
+
+.steuerfachangestellte_content #info_block .content .jobs_btn a {
+  background: #ea2129;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: "Axiforma-SemiBold";
+}
+
+.steuerfachangestellte_content #info_block .content .jobs_btn img {
+  margin-left: 15px;
+}
+
+.steuerfachangestellte_content #info_block .content .description p,
+.leistungen-submenuText p {
+  font-size: 14px;
+  color: #83848b;
+  line-height: 28px;
+}
+
+.steuerfachangestellte_content #info_block .content .description p a {
+  color: #ea2129;
+}
+
+.leistungen_content #moreInfo,
+.schwerpunkte_content #block_believeUs {
+  background: #f9f9f9;
+  margin-top: -50px;
+  padding: 130px 0 80px;
+}
+
+.leistungen_content #moreInfo .title {
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.leistungen_content #moreInfo .row {
+  margin-top: 50px;
+}
+
+.leistungen_content #moreInfo .text.show-more-height {
+  height: 55px;
+  overflow: hidden;
+}
+
+.leistungen_content #moreInfo .txt,
+#schwerpunkte_slider .subtitle {
+  font-family: "Axiforma-Light";
+}
+
+.leistungen_content #moreInfo .show-more span {
+  color: #ea2129;
+}
+
+.leistungen_content #moreInfo .show-more img {
+  margin-left: 10px;
+}
+
+.leistungen_content #moreInfo .show-more {
+  width: fit-content;
+  cursor: pointer;
+}
+
+#subCategory_info {
+  margin: 70px 0 100px;
+}
+
+#subCategory_info .page_titles .title,
+#subCategory_info .page_titles .subtitle,
+#schwerpunkte_slider .title,
+#schwerpunkte_slider .subtitle {
+  text-align: left;
+}
+
+#subCategory_info .page_titles .subtitle {
+  line-height: 28px;
+  margin-bottom: 70px;
+}
+
+#subCategory_info .content_imgText {
+  display: -webkit-inline-box;
+  margin-bottom: 100px;
+}
+
+#subCategory_info .content_imgText .image {
+  width: 150px;
+  height: 140px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  box-shadow: 0px 10px 30px #00000014;
+  margin-right: 70px;
+}
+
+#subCategory_info .content_imgText .title1 {
+  color: #2d2d2d;
+  font-size: 26px;
+  font-family: "Axiforma-Medium";
+}
+
+#subCategory_info .content_imgText .txt {
+  color: #83848b;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+#subCategory_info .content_imgText .partText {
+  width: 53%;
+}
+
+#subCategory_info .content_imgText .partText a {
+  font-size: 15px;
+  color: #ea2129;
+  font-family: "Axiforma-SemiBold";
+}
+
+#subCategory_info .content_imgText .partText a img {
+  margin-left: 15px;
+}
+
+.pages_aboutUs .textContent {
+  display: flex;
+  height: 100%;
+  display: -webkit-flex;
+}
+
+.pages_aboutUs .textContent .txt {
+  align-self: center;
+}
+
+#schwerpunkte_page .page_titles .subtitle,
+#steuerberatung_page .page_titles .subtitle,
+#unternehmensberatung_page .page_titles .subtitle {
+  line-height: 28px;
+}
+
+#block_believeUs .content {
+  padding: 50px 35px;
+  text-align: center;
+  background: white;
+  box-shadow: 0px 10px 30px #00000029;
+  width: 100%;
+}
+
+#block_believeUs .content .title1 {
+  margin-bottom: 0;
+}
+
+#block_partner.schwerpunkte_experienceBlock .textContent .text2 {
+  color: #83848b;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#block_partner.schwerpunkte_experienceBlock .textContent .title {
+  line-height: 55px;
+}
+
+#block_partner.schwerpunkte_experienceBlock {
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+#block_believeUs .container {
+  padding: 0 45px;
+}
+
+/*referenzen slider*/
+
+#digiTalentSlider2 {
+  position: relative;
+  height: fit-content;
+  margin: 70px 0 120px;
+}
+
+#digiTalentSlider2 .DigiTalent-slider-content {
+  margin: 0 2%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  #digiTalentSlider2 .DigiTalent-slider-content {
+    margin: 0;
+  }
+  #blog-steps .row {
+    margin-bottom: 0 !important;
+  }
+  .blog_page .blog_count {
+    margin-top: 50px;
+  }
+}
+
+#digiTalentSlider2 .DigiTalent-slider-content .item {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 1200px) {
+  #digiTalentSlider2 .DigiTalent-slider-content .item {
+    width: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  #digiTalentSlider2 .DigiTalent-slider-content .item {
+    width: 33.3333%;
+  }
+}
+
+@media (max-width: 767px) {
+  #digiTalentSlider2 .DigiTalent-slider-content .item {
+    width: 50%;
+  }
+  #block_believeUs .row.row1 {
+    margin-bottom: 0 !important;
+  }
+  #mym-insert-here-86304 .mym-banner-container,
+  #mym-insert-here-86299 .mym-banner-container,
+  #mym-insert-here-86297 .mym-banner-container,
+  #mym-insert-here-86301 .mym-banner-container,
+  #mym-insert-here-86302 .mym-banner-container,
+  #mym-insert-here-86294,
+  #mym-insert-here-86294 .mym-banner-container {
+    justify-content: initial !important;
+  }
+  #mym-insert-here-86304 .mym-banner-container svg,
+  #mym-insert-here-86299 .mym-banner-container svg,
+  #mym-insert-here-86297 .mym-banner-container svg,
+  #mym-insert-here-86301 .mym-banner-container svg,
+  #mym-insert-here-86302 .mym-banner-container svg,
+  #mym-insert-here-86294 .mym-banner-container svg,
+  #mym-insert-here-86294 .mym-banner-container svg {
+    min-width: unset !important;
+  }
+}
+
+#digiTalentSlider2 .DigiTalent-slider-content .item p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#digiTalentSlider2 .DigiTalent-slider-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 22%;
+}
+
+#digiTalentSlider2 .DigiTalent-slider-controls button img {
+  width: 13px;
+}
+
+#digiTalentSlider2 button.DigiTalent-slider-left img {
+  transform: rotate(180deg);
+}
+
+#digiTalentSlider2 .DigiTalent-slider-controls button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  #digiTalentSlider2 .DigiTalent-slider-controls .DigiTalent-slider-left {
+    left: -2px;
+  }
+}
+
+#digiTalentSlider2 .DigiTalent-slider-controls .DigiTalent-slider-right {
+  right: 0px;
+}
+
+@media (max-width: 992px) {
+  #digiTalentSlider2 .DigiTalent-slider-controls .DigiTalent-slider-right {
+    right: -2px;
+  }
+}
+
+/*end*/
+
+#block_partner.leistungen-submenuAboutUs .imageContent .whiteRectangle {
+  padding: 40px;
+}
+
+#block_partner.leistungen-submenuAboutUs {
+  margin: 70px 0 150px;
+}
+
+#block_partner.leistungen-submenuAboutUs .text2 {
+  font-size: 14px;
+}
+
+.leistungen-submenuText .text1 {
+  font-family: "Axiforma-Light";
+}
+
+.leistungen-submenuText .subtitle {
+  font-size: 20px;
+  font-family: "Axiforma-ExtraBold";
+  color: #2d2d2d;
+  margin: 40px 0;
+}
+
+.leistungen-submenuBlock .box-3images {
+  margin: 120px 0 150px;
+}
+
+.leistungen-submenuBlock .box-3images .col-sm-4 {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.leistungen-submenuBlock .box-3images .image {
+  width: 100%;
+  align-self: flex-end;
+}
+
+.leistungen-submenuBlock .box-3images img {
+  width: 100%;
+  height: max-content;
+}
+
+.leistungen-submenuBlock .page_titles .subtitle,
+.schwerpunkte-submenuBlock .page_titles .subtitle {
+  font-size: 16px;
+  font-family: "Axiforma-Medium";
+  line-height: 28px;
+  color: #2d2d2d;
+}
+
+.schwerpunkte-submenuBlock {
+  margin-bottom: 100px;
+}
+
+.schwerpunkte-submenuBlock .schwerpunkte-submenuImg {
+  margin: 80px 0 60px;
+}
+
+.schwerpunkte-submenuBlock .schwerpunkte-submenuImg img {
+  width: 100%;
+}
+
+.schwerpunkte-submenuBlock #info_block .subtitle {
+  color: #2d2d2d;
+  font-size: 20px;
+  font-family: "Axiforma-ExtraBold";
+  line-height: 86px;
+}
+
+.schwerpunkte-submenuBlock #info_block p {
+  color: #83848b;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.28px;
+}
+
+.schwerpunkte-submenuBlock .description_list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.schwerpunkte-submenuBlock .description_list li {
+  display: flex;
+  display: -webkit-flex;
+  font-size: 16px;
+  color: #83848b;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.schwerpunkte-submenuBlock .description_list li img {
+  align-self: flex-start;
+  margin: 5px 10px 0 0;
+}
+
+#header_block nav a.active {
+  color: #ea2129;
+  position: relative;
+}
+
+#header_block nav a.active:before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background: #ea2129;
+  bottom: -27px;
+  left: 0;
+}
+
+#header_block .dropdown-toggle.active::after {
+  content: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/red-arrow.svg");
+}
+
+@media (max-width: 1799px) {
+  .leistungen_content #moreInfo,
+  .schwerpunkte_content #block_believeUs {
+    margin-top: 80px;
+    padding: 80px 0 80px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .pages_aboutUs .textContent .txt {
+    padding-right: 0px;
+  }
+  .leistungen-submenuBlock .box-3images img {
+    height: initial;
+  }
+  #die-kanzlei_slider .slick-initialized .slick-slide.slick-center {
+    /* transform: scaleY(1.15); */
+  }
+  .leistungen-submenuAboutUs .imageContent .subtitle {
+    display: none;
+  }
+  #signature-block .content .sign {
+    max-width: 150px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .page_titles .title,
+  .jobs_content #ourValues .title {
+    line-height: initial;
+  }
+  .pages_aboutUs .textContent .title,
+  #block_partner .textContent .title,
+  #die-kanzlei_info .text_info .title,
+  #die-kanzlei_slider .text_info .title,
+  #die-kanzlei_slider1 .text_info .title,
+  .leistungen_content #moreInfo .title,
+  .page_titles .title,
+  .jobs_content #ourValues .title,
+  #apply-formular .title,
+  #pdf-block .title {
+    font-size: 26px;
+  }
+  #block_partner .partner_btn a,
+  .pages_aboutUs .textContent .aboutUs_btn a {
+    padding: 12px 20px;
+  }
+  #die-kanzlei_info .info .subtitle,
+  .leistungen_content #moreInfo .title1 {
+    font-size: 20px;
+  }
+  #subCategory_info .content_imgText .title1 {
+    font-size: 22px;
+  }
+  br {
+    display: none;
+  }
+  #block_attributes br {
+    display: initial;
+  }
+  .steuerfachangestellte_content #info_block .col-sm-8,
+  .steuerfachangestellte_content #info_block .col-sm-4 {
+    max-width: 100%;
+    flex: 100%;
+    -webkit-flex: 100%;
+  }
+  .steuerfachangestellte_content #info_block .col-sm-4 {
+    margin: 50px 0 20px;
+  }
+  .steuerfachangestellte_content #info_block .content .jobs_btn a {
+    width: initial;
+    padding: 15px 30px;
+  }
+  .steuerfachangestellte_content #info_block .col-sm-8 {
+    padding-right: 15px;
+  }
+  .otherPages #header_block .menu__btn {
+    content: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/right-menu-bars1.svg") !important;
+  }
+  .otherPages #header_block .menu__box {
+    margin-top: 78px;
+    padding-top: 20px;
+  }
+  .otherPages #header_block .menu__btn.cross-active {
+    content: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/cross1.svg") !important;
+    width: 14px;
+  }
+  .hamburger-menu .menu__item .dropdown {
+    position: absolute;
+    top: 10px;
+    right: 17px;
+    padding: 8px 15px;
+  }
+  #header_block .menu__box .submenu li {
+    margin-bottom: 10px;
+  }
+  #sticky-desktop {
+    display: none;
+  }
+  #apply-formular .up-btn,
+  #apply-formular .field input::placeholder,
+  #apply-formular .apply-label {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #block_leistungen .content .title1,
+  #block_believeUs .content .title1 {
+    font-size: 18px;
+  }
+  #block_believeUs .content {
+    padding: 30px 10px;
+  }
+  #block_believeUs .container {
+    padding: 0 15px;
+  }
+  #jobs-position .content {
+    padding: 20px 12px !important;
+  }
+  #jobs-position .content .category_title {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #subCategory_info {
+    margin-bottom: 20px;
+  }
+  #subCategory_info .content_imgText {
+    margin-bottom: 50px;
+  }
+  #block_partner.schwerpunkte_experienceBlock .textContent .title {
+    line-height: initial;
+  }
+  #block_believeUs .col-sm-4 {
+    flex: 100%;
+    max-width: 100%;
+    -webkit-flex: 100%;
+  }
+  #block_believeUs .content {
+    margin-bottom: 30px;
+  }
+  #block_believeUs .container {
+    padding: 0 15px;
+  }
+  #block_partner.leistungen-submenuAboutUs .imageContent .whiteRectangle img {
+    width: 50px;
+  }
+  #block_partner.leistungen-submenuAboutUs .imageContent .whiteRectangle {
+    padding: 30px;
+  }
+  #jobs-position .col-sm-4 {
+    flex: 100%;
+    max-width: 100%;
+    -webkit-flex: 100%;
+  }
+  #apply-formular {
+    padding: 30px !important;
+  }
+  #apply-formular .title {
+    line-height: initial !important;
+  }
+  #apply-formular .col-sm-6 {
+    max-width: 100%;
+    flex: 100%;
+    -webkit-flex: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  #jobs-position .content {
+    padding: 25px;
+  }
+  #jobs_page .page_titles .subtitle {
+    line-height: 36px;
+    font-size: 24px;
+  }
+  #jobs_page .page_titles .title {
+    line-height: inherit;
+  }
+  #jobs-position .content .category_title,
+  .jobs_content #ourValues .img-description {
+    font-size: 18px;
+  }
+  .pages_aboutUs .textContent .aboutUs_btn {
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  .leistungen_content #moreInfo .text,
+  .jobs_content #ourValues .text-row {
+    margin-bottom: 10px;
+  }
+  .leistungen_content #moreInfo .row {
+    margin-top: 0;
+  }
+  .leistungen_content #moreInfo,
+  .schwerpunkte_content #block_believeUs {
+    margin-top: -50px;
+    padding: 100px 0 30px;
+  }
+  .leistungen_content #moreInfo .content,
+  .leistungen_content #moreInfo .txt,
+  #subCategory_info .page_titles .subtitle,
+  .leistungen-submenuBlock .box-3images .col-sm-4 {
+    margin-bottom: 30px;
+  }
+  #subCategory_info .content_imgText {
+    display: initial;
+  }
+  #subCategory_info .content_imgText .image {
+    margin-right: 0;
+    width: 125px;
+    height: 115px;
+  }
+  #subCategory_info .content_imgText .partText {
+    width: 100%;
+    margin: 30px 0 50px;
+  }
+  #subCategory_info {
+    margin-top: 50px;
+  }
+  #breadcrumbs_nav {
+    margin: 50px 0;
+    margin-top: 120px;
+  }
+  #breadcrumbs_nav ul a {
+    font-size: 13px;
+  }
+  .jobs_content #ourValues .description_word ul li {
+    font-size: 12px;
+  }
+  #breadcrumbs_nav ul .breadcrumbs_active:before {
+    margin: 0 5px;
+  }
+  #block_partner.leistungen-submenuAboutUs,
+  #jobs-position {
+    margin-bottom: 70px;
+  }
+  .jobs_content #ourValues .description_word ul {
+    justify-content: space-between;
+  }
+  .leistungen-submenuBlock .box-3images {
+    margin-top: 70px;
+    margin-bottom: 90px;
+  }
+  #digiTalentSlider2 .DigiTalent-slider-content .item {
+    width: 100%;
+  }
+  .schwerpunkte-submenuBlock .schwerpunkte-submenuImg {
+    margin: 50px 0 40px;
+  }
+  .schwerpunkte-submenuBlock #info_block .subtitle {
+    line-height: initial;
+  }
+  #slider2_content {
+    margin-top: 0;
+    padding: 0 !important;
+  }
+  #die-kanzlei_info {
+    margin-bottom: 50px;
+  }
+  .die-kanzlei_servicesBlock {
+    padding: 120px 0 70px;
+  }
+  #die-kanzlei_slider,
+  #die-kanzlei_slider1,
+  #blog.blog_page.blog_post {
+    margin-bottom: 100px;
+  }
+  #blog.blog_page.blog_post .col-sm-12 .blog_content {
+    box-shadow: none;
+  }
+  .blog_page.blog_post .last_post {
+    margin-bottom: 50px;
+  }
+  .jobs_content #ourValues .col-sm-5 .img2,
+  .jobs_content #ourValues .col-sm-5 .img4 {
+    position: initial;
+  }
+  .jobs_content #ourValues .col-sm-7 img {
+    margin-top: 30px;
+  }
+  #block_believeUs .content {
+    padding: 30px 20px;
+  }
+  #unternehmensberatung_page.otherPages .page_titles .title {
+    font-size: 22px;
+  }
+  #home_slider .signature {
+    width: 60% !important;
+  }
+  .jobs_content #ourValues .image-row2 {
+    margin-bottom: 0 !important;
+  }
+  .jobs_content #ourValues .image-row3 .col-sm-5 img {
+    margin-top: 30px;
+  }
+  /*#sticky-mobile.sticky-container{
+        top: unset !important;
+        bottom: 0;
+    }*/
+  #signature-block .col-sm-4 {
+    margin-bottom: 30px;
+  }
+  .pages_aboutUs .textMobile {
+    margin-top: 30px;
+  }
+  .pages_aboutUs .textDesktop {
+    display: none;
+  }
+  #signature-block {
+    margin-top: 20px !important;
+  }
+}
+
+#header_block .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+@media (max-width: 360px) {
+  #breadcrumbs_nav ul a {
+    font-size: 12px !important;
+  }
+  #breadcrumbs_nav ul .breadcrumbs_active:before {
+    margin: 0 3px;
+  }
+}
+
+#die-kanzlei_page .pages_aboutUs .textContent .txt {
+  align-self: center;
+}
+
+@media (min-width: 576px) and (max-width: 1799px) {
+  #die-kanzlei_page .die-kanzlei_servicesBlock {
+    margin-top: 50px !important;
+    padding: 100px 0;
+  }
+  #slider2_content {
+    margin-top: 0;
+  }
+  #die-kanzlei_info {
+    margin-bottom: 50px !important;
+  }
+}
+
+.sticky-container {
+  position: fixed;
+  top: 40%;
+  right: 0px;
+  z-index: 3;
+}
+
+#sticky-desktop .sticky-container-class {
+  width: 61px;
+}
+
+.sticky-container-class {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+#sticky-desktop.sticky-container .sticky-phone {
+  transform: translateX(0);
+  transition: all 1s;
+  width: 295px;
+}
+
+.sticky-container li {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.sticky-container li a {
+  width: 60px;
+  height: 55px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  background: #ea2129;
+  opacity: 90%;
+}
+
+.sticky-container li .mail a,
+#sticky-mobile.sticky-container li .mail a {
+  background: transparent;
+  width: unset;
+  height: unset;
+  color: white;
+}
+
+.sticky-container li .content {
+  display: flex;
+  display: -webkit-flex;
+  background: #ea2129;
+  opacity: 90%;
+  color: white;
+  padding: 0 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.sticky-container li .content div {
+  align-self: center;
+}
+
+#sticky-desktop.sticky-container .sticky-phone:hover {
+  transform: translateX(-163px);
+  transition: all 1s;
+}
+
+#sticky-desktop.sticky-container .sticky-mail {
+  transform: translateX(0px);
+  transition: all 1s;
+  width: 320px;
+}
+
+#sticky-desktop.sticky-container .sticky-mail:hover {
+  transform: translateX(-213px);
+  transition: all 1s;
+}
+
+.sticky-container .sticky-container-class .line {
+  width: 62px;
+  height: 1px;
+  background: white;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  opacity: 40%;
+}
+
+@media (min-width: 992px) {
+  #sticky-mobile {
+    display: none;
+  }
+}
+
+#sticky-mobile.sticky-container .sticky-phone.show {
+  transform: translateX(50px);
+  transition: all 1s;
+}
+
+#sticky-mobile.sticky-container .sticky-mail.show {
+  transform: translateX(0px);
+  transition: all 1s;
+}
+
+#sticky-mobile.sticky-container li a {
+  width: 65px;
+  height: 60px;
+}
+
+#sticky-mobile.sticky-container .sticky-phone,
+#sticky-mobile.sticky-container .sticky-mail {
+  transform: translateX(215px);
+}
+
+#sticky-mobile.sticky-container .sticky-container-class .line {
+  width: 50px;
+}
+
+#sticky-mobile.sticky-container {
+  top: 60%;
+}
+
+#sticky-mobile.sticky-container li a,
+#sticky-mobile.sticky-container li .content {
+  opacity: 1;
+}
+
+.datenschuts_content,
+.impressum_content {
+  margin-bottom: 100px;
+  color: #83848b;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+#questions_block .info-box {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  border: 1px solid #dfdfdf;
+  padding: 20px 0px;
+  margin-bottom: 30px;
+  padding-right: 10px;
+}
+
+#questions_block .text-box {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+#questions_block .question {
+  color: #2d2d2d;
+  font-size: 20px;
+  font-family: "Axiforma-Bold";
+  margin-bottom: 0;
+  display: list-item;
+  margin-left: 30px;
+}
+
+#questions_block .question::marker {
+  font-size: 0;
+}
+
+.info-box .info {
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+  margin-left: 30px;
+}
+
+.info-box .info p,
+.info-box .info ul {
+  font-size: 14px;
+  color: #83848b;
+  margin-bottom: 0;
+  line-height: 28px;
+}
+
+.info-box .info ul {
+  padding-left: 18px;
+  margin: 20px 0;
+}
+
+#questions_block .arrow-function {
+  display: flex;
+  display: -webkit-flex;
+}
+
+#questions_block .btn.btn-link,
+#questions_block .btn.btn-link:hover {
+  background: transparent !important;
+  transition: none !important;
+}
+
+#questions_block .info-box.box_active {
+  box-shadow: 0px 10px 30px #00000029;
+  border: none;
+  padding-bottom: 0;
+}
+
+.info-box.box_active .info {
+  padding: 30px 0;
+  height: auto;
+}
+
+#questions_block .info-box.box_active .arrow-function {
+  display: initial;
+}
+
+#questions_block .info-box .red_arrow,
+#questions_block .info-box.box_active .black_arrow {
+  display: none;
+}
+
+#questions_block .info-box.box_active .red_arrow {
+  display: block;
+}
+
+#questions_block .info-box.box_active .question {
+  color: #ea2129;
+}
+
+#questions_block {
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  #block_believeUs .col-sm-4 {
+    display: flex;
+    display: -webkit-flex;
+  }
+}
+
+/*.schwerpunkte-submenuBlock .simple-list{
+    padding-left: 15px;
+    color: #83848B;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.28px;
+}*/
+
+@media (min-width: 1199px) and (max-width: 1799px) {
+  #header_block nav a {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+  #header_block nav .nav-item {
+    margin-left: 7px;
+  }
+  #header_block nav .nav-item.contact_item a {
+    padding: 10px 15px;
+  }
+  #step1 .text_content .text {
+    min-height: 65px;
+  }
+}
+
+#header_block nav .nav-item.contact_item a {
+  color: white;
+}
+
+.author-name {
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.schwerpunkte-submenuBlock .simple-list li img {
+  align-self: flex-start;
+  margin: 5px 10px 0 0;
+}
+
+.schwerpunkte-submenuBlock .simple-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.schwerpunkte-submenuBlock .simple-list li {
+  display: flex;
+  display: -webkit-flex;
+  font-size: 16px;
+  color: #83848b;
+  line-height: 30px;
+}
+
+#apply-block .title {
+  line-height: 55px;
+}
+
+#apply-block {
+  margin-bottom: 130px;
+}
+
+#apply-block .jobs_btn {
+  justify-content: center;
+  display: flex;
+  display: -webkit-flex;
+  margin-top: 50px;
+}
+
+#apply-block .jobs_btn a {
+  background: #ea2129;
+  color: white;
+  font-size: 15px;
+  font-family: "Axiforma-SemiBold";
+  padding: 15px 50px;
+}
+
+#apply-block .jobs_btn a img {
+  margin-left: 15px;
+}
+
+.otherPages .contact_item {
+  background: #ea2129;
+}
+
+#footer #footerLogo {
+  width: 100%;
+}
+
+#apply-formular {
+  box-shadow: 0px 10px 30px #00000014;
+  margin-bottom: 100px;
+  padding: 70px 100px;
+}
+
+#apply-formular .title {
+  font-size: 34px;
+  line-height: 42px;
+}
+
+#apply-formular .subtitle {
+  font-size: 15px !important;
+  font-family: "Axiforma-Medium";
+  line-height: 26px !important;
+  margin-bottom: 30px;
+}
+
+#apply-formular .apply-label {
+  width: 69%;
+  color: #83848b;
+}
+
+#apply-formular .up-btn {
+  background: white;
+  border: 1px solid #f6f6f6;
+  border-left: 0;
+  padding: 15px 10px;
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#apply-formular .up-btn img,
+#apply-formular .contact_btn button img {
+  margin-left: 10px;
+}
+
+#apply-formular .contact_btn button {
+  color: #2d2d2d;
+  font-size: 15px;
+  font-family: "Axiforma-Medium";
+  color: white;
+}
+
+#blog.blog_page.blog_post .list-content .subtitle {
+  color: #2d2d2d;
+  font-size: 20px;
+  font-family: "Axiforma-ExtraBold";
+  line-height: 86px;
+  text-align: left;
+}
+
+#blog.blog_page.blog_post .list-content img {
+  width: initial;
+  align-self: flex-start;
+  margin: 5px 10px 0 0;
+}
+
+#blog.blog_page.blog_post .list-content ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+#blog.blog_page.blog_post .list-content ul li {
+  display: flex;
+  display: -webkit-flex;
+  font-size: 16px;
+  color: #83848b;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+#blog.blog_page.blog_post .list-content p {
+  font-size: 16px;
+  color: #83848b;
+}
+
+#blog.blog_page.blog_post .list-content ul.first {
+  margin: 70px 0 30px;
+}
+
+.impressum_content p,
+.datenschuts_content p {
+  color: #83848b;
+  font-size: 16px;
+}
+
+.impressum_content .title,
+.datenschuts_content h2 {
+  font-size: 24px;
+  font-family: "Axiforma-ExtraBold";
+  margin-bottom: 20px;
+  color: #2d2d2d;
+}
+
+.impressum_content .subtitle,
+.datenschuts_content h3,
+.datenschuts_content h4 {
+  color: #2d2d2d;
+  font-size: 20px;
+  font-family: "Axiforma-ExtraBold";
+  margin-top: 30px;
+}
+
+.impressum_content a,
+.datenschuts_content a {
+  color: #ea2129;
+}
+
+#pdf-block .title {
+  font-size: 24px;
+}
+
+#pdf-block {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+#pdf-block .text-pdf {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px #0000001f;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+#pdf-block .text-pdf p {
+  margin-bottom: 0;
+}
+
+#pdf-block .text-pdf .text {
+  color: #83848b;
+  font-size: 18px;
+  align-self: center;
+}
+
+#pdf-block .text-pdf a {
+  color: #ea2129;
+  font-size: 24px;
+  font-family: "Axiforma-Bold";
+}
+
+#pdf-block .text-pdf a svg {
+  margin-right: 10px;
+}
+
+#mym-insert-here-86273 .mym-widget-video-button .bottom {
+  opacity: 1 !important;
+}
+
+#mym-insert-here-86273 .mym-widget-video-button {
+  max-width: unset;
+  max-height: unset;
+  height: 100%;
+  background: black;
+  display: flex;
+  display: -webkit-flex;
+}
+
+#mym-insert-here-86273 .mym-widget-video-button .mym-button-image {
+  align-self: center;
+}
+
+#mym-insert-here-86277 .mym-widget-container.mym-widget-video .mym-right,
+#mym-insert-here-86274 .mym-widget-container.mym-widget-video .mym-right,
+#mym-insert-here-86273 .mym-widget-container.mym-widget-video .mym-right {
+  display: none;
+}
+
+#mym-insert-here-86273 .mym-widget-video-button:hover .bottom {
+  background: #f3f2ef;
+  color: #2d2d2d;
+}
+
+#preview-button {
+  display: flex;
+  display: -webkit-flex;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  color: #ea2129;
+  margin-right: 10px;
+}
+
+#preview-button img {
+  align-self: center;
+  margin-top: -2px;
+  margin-right: 15px;
+}
+
+#blog .text_content .title-section {
+  min-height: 50px;
+}
+
+.siteLogo-mobile,
+.otherPages .siteLogo-mobile1 {
+  display: none;
+}
+
+@media (max-width: 1199px) {
+  #siteLogo,
+  .otherPages #otherPagesLogo {
+    display: none;
+  }
+  .otherPages .siteLogo-mobile {
+    display: initial !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .siteLogo-mobile1 {
+    display: none;
+  }
+  .leistungen-submenuAboutUs .imageContent .mobile-subtitle {
+    display: none;
+  }
+}
+
+.leistungen-submenuAboutUs .imageContent .mobile-subtitle {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+#block_leistungen.logistik-page .content,
+#block_leistungen.handwerk-page .content,
+#block_leistungen.industrie-page .content,
+#block_leistungen.handel-page .content,
+#block_leistungen.freiberufler-page .content {
+  padding: 50px 15px;
+}
+
+#block_leistungen.logistik-page .title,
+#block_leistungen.handwerk-page .title,
+#block_leistungen.industrie-page .title,
+#block_leistungen.handel-page .title,
+#block_leistungen.freiberufler-page .title,
+.schwerpunkte_content #block_believeUs {
+  margin-bottom: 50px;
+}
+
+#block_believeUs .row.row1 {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+  #apply-formular .title {
+    font-size: 26px !important;
+  }
+}
+
+@media (max-width: 540px) {
+  #apply-formular .apply-label {
+    width: 60%;
+  }
+  #apply-formular .up-btn {
+    width: 40%;
+  }
+  #apply_form .field {
+    display: flex;
+    display: -webkit-flex;
+  }
+  #apply-formular .up-btn {
+    align-self: baseline;
+  }
+  #apply-formular {
+    padding: 0 !important;
+    box-shadow: none;
+  }
+  #apply-formular .apply-label {
+    padding: 15px 10px;
+  }
+  .otherPages #blog #pdf-block .title {
+    font-size: 20px !important;
+  }
+  #pdf-block .text-pdf .text {
+    font-size: 16px;
+  }
+  #pdf-block .text-pdf a {
+    font-size: 18px;
+  }
+}
+
+#pdf-block .text {
+  margin-top: 0;
+}
+
+#mym-insert-here-86272 .mym-widget-container {
+  min-width: unset;
+}
+
+#mym-insert-here-86304,
+#mym-insert-here-86273,
+#mym-insert-here-86299,
+#mym-insert-here-86297,
+#mym-insert-here-86301,
+#mym-insert-here-86302,
+#mym-insert-here-86294,
+#mym-insert-here-86294 {
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  #mym-insert-here-86304 .mym-banner-container,
+  #mym-insert-here-86299 .mym-banner-container,
+  #mym-insert-here-86297 .mym-banner-container,
+  #mym-insert-here-86301 .mym-banner-container,
+  #mym-insert-here-86302 .mym-banner-container,
+  #mym-insert-here-86294,
+  #mym-insert-here-86294 .mym-banner-container {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+  }
+}
+
+#jobs_page #contact {
+  display: none;
+}
+
+#jobs_page #footer {
+  padding: 100px 0 50px 0;
+  margin-top: 0;
+}
+
+#jobs_page #die-kanzlei_slider {
+  margin-top: 0;
+}
+
+#blog-slider .row {
+  height: max-content;
+}
+
+#blog-slider .text {
+  min-height: 64px;
+}
+
+#blog-steps #blog-slider .showMore_btn {
+  color: #ea2129 !important;
+}
+
+#blog-slider .slick-prev:before,
+#blog-slider .slick-next:before,
+#die-kanzlei_slider .slick-prev:before,
+#die-kanzlei_slider .slick-next:before,
+#die-kanzlei_slider1 .slick-prev:before,
+#die-kanzlei_slider1 .slick-next:before {
+  content: url("https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/red_arrow.svg");
+  display: block;
+  transform: scale(1.7);
+}
+
+#blog-slider .slick-prev,
+#die-kanzlei_slider .slick-prev,
+#die-kanzlei_slider1 .slick-prev {
+  transform: rotate(180deg);
+}
+
+#blog-slider .slick-next.slick-arrow,
+#blog-slider .slick-prev.slick-arrow,
+#jobs-position .col-sm-4:hover .job-logo-hover,
+#die-kanzlei_slider .slick-next.slick-arrow,
+#die-kanzlei_slider .slick-prev.slick-arrow,
+#die-kanzlei_slider1 .slick-next.slick-arrow,
+#die-kanzlei_slider1 .slick-prev.slick-arrow {
+  display: block !important;
+}
+
+#jobs-position .col-sm-4 .job-logo-hover,
+#jobs-position .col-sm-4:hover .job-logo {
+  display: none;
+}
+
+#jobs-position .col-sm-4:hover .job-logo-hover {
+  width: 102px;
+}
+
+#blog-steps #blog-slider .showMore_btn img {
+  width: initial;
+  margin-left: 10px;
+}
+
+#blog-steps #blog-slider .showMore_btn {
+  display: flex;
+  display: -webkit-flex;
+}
+
+#jobs-position .content .category_title br {
+  display: block;
+}
+
+.leistungen-submenuAboutUs .imageContent .subtitle {
+  float: right;
+  font-size: 12px;
+}
+
+#signature-block {
+  margin-top: 70px;
+}
+
+#signature-block .content {
+  box-shadow: 0px 10px 30px #0000001f;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#signature-block .content .sign {
+  max-width: 200px;
+}
+
+#signature-block .content .text {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+#signature-block .content .text .name {
+  font-size: 16px;
+  font-family: "Axiforma-SemiBold";
+  color: #2d2d2d;
+  margin-bottom: 0;
+}
+
+#signature-block .content .text .position {
+  font-size: 14px;
+  color: #83848b;
+}
+
+#signature-block .col-sm-4 {
+  display: flex;
+  display: -webkit-flex;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #signature-block .content .text .position {
+    min-height: 42px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  #signature-block .content .text {
+    padding: 20px 10px 0 !important;
+  }
+  #signature-block .content .text .name {
+    min-height: 50px;
+  }
+}
+
+#signature-block .subtitle {
+  color: #83848b;
+  font-size: 16px;
+  font-family: "Axiforma-SemiBold";
+  margin-bottom: 30px;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0 !important;
+}
+
+#home_slider .slick-dots {
+  right: 332px;
+  bottom: 40px;
+  width: initial;
+}
+
+#home_slider button#slick-slide-control00:before {
+  content: "01";
+  font-size: 24px;
+  color: #ea2129;
+  font-family: "Axiforma-Medium";
+}
+
+#home_slider button#slick-slide-control01:before {
+  content: "02";
+  font-size: 24px;
+  color: #ea2129;
+  font-family: "Axiforma-Medium";
+}
+
+#home_slider button#slick-slide-control02:before {
+  content: "03";
+  font-size: 24px;
+  color: #ea2129;
+  font-family: "Axiforma-Medium";
+}
+
+#home_slider .slick-dots li {
+  display: none;
+}
+
+#home_slider .slick-dots .slick-active {
+  /* display: block !important; */
+}
+
+@media (max-width: 700px) {
+  .page_titles {
+    display: block;
+    width: 100%;
+    margin: -1px;
+  }
+  .leistungen_content {
+    margin-top: 0;
+    padding-top: 0;
+    display: block;
+    width: 100%;
+    margin: -1px;
+  }
+  .contact {
+    float: left;
+    width: 100%;
+  }
+  .footer {
+    float: left;
+    width: 100%;
+  }
+}
+
+.otherPages #header_block .navbar-brand {
+  display: flex;
+}
+
+.otherPages #header_block .navbar-brand {
+  display: flex;
+}
+
+#uploadfile_1 {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+}
+
+.sticky-phone .number {
+  width: 160px;
+}
+
+.sticky-phone .number a {
+  color: #fff !important;
+  width: 130px !important;
+  line-height: 50px !important;
+}
+
+.grecaptcha-badge {
+  display: none;
+}
+#otherPagesLogo {
+  width: 100%;
+}
+#pdf-block .text-pdf .text {
+  min-height: unset;
+}
+
+.right-images {
+  position: absolute;
+  z-index: 99;
+  top: 130px;
+  right: 10px;
+  list-style: none;
+}
+.right-images li img {
+  max-width: 100px;
+  width: 80px;
+}
+/* @media (min-width: 1200px) {
+	img#siteLogo {display: none;}
+	img#otherPagesLogo {
+	display: block !important;
+} } */
+.thumbnailimage {
+  width: 100%;
+}
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  width: 100%;
+  height: 100%;
+}
+
+.page_titles .subtitle {
+  color: #2d2d2d;
+}
+button.slick-next.slick-arrow {
+  display: block !important;
+  position: absolute;
+  left: 100%;
+  bottom: 50%;
+  border: unset;
+  font-size: 0;
+  background: transparent;
+  height: 5px;
+  padding: 0 15px;
+}
+
+button.slick-prev.slick-arrow {
+  display: block !important;
+  position: absolute;
+  right: 100%;
+  bottom: 50%;
+  border: unset;
+  font-size: 0;
+  background: transparent;
+  height: 5px;
+  padding: 0 15px;
+}
+/* @media (min-width: 410px) and (max-width: 991px) {
+	.hamburger-menu .menu__item.nav-item.contact_item a {
+		display: none;
+	}
+} */
+
+/* .button.slick-prev:hover, .button.slick-prev:focus, .button.slick-next:hover, .button.slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+} */
+
+.page-template-front-page #otherPagesLogo {
+  display: none;
+}
+
+.page-template-steuerberatung #siteLogo {
+  display: none;
+}
+.page-template-aktuelles #siteLogo {
+  display: none;
+}
+.page-template-leistungen #siteLogo {
+  display: none;
+}
+.page-template-unternehmensberatung #siteLogo {
+  display: none;
+}
+.page-template-rechtsberatung #siteLogo {
+  display: none;
+}
+.page-template-wirtschaftsprufung #siteLogo {
+  display: none;
+}
+.page-template-digitalisierung #siteLogo {
+  display: none;
+}
+.page-template-schwerpunkte #siteLogo {
+  display: none;
+}
+.page-template-pflege #siteLogo {
+  display: none;
+}
+.page-template-logistik #siteLogo {
+  display: none;
+}
+.page-template-handwerk #siteLogo {
+  display: none;
+}
+.page-template-industrie #siteLogo {
+  display: none;
+}
+.page-template-handel #siteLogo {
+  display: none;
+}
+.page-template-freiberufler #siteLogo {
+  display: none;
+}
+.page-template-die-kanzlei #siteLogo {
+  display: none;
+}
+.page-template-jobs #siteLogo {
+  display: none;
+}
+@media (max-width: 1200px) {
+  #otherPagesLogo {
+    display: none;
+  }
+}
+/* #header_block nav a:active {
+  color: red;
+} */
+#menu-header {
+  display: flex;
+}
+
+#header_block nav ul {
+  list-style-type: none;
+  margin-bottom: unset;
+}
+
+#header_block nav ul > .menu-item-112:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: translate(0, 0);
+}
+#header_block nav ul > .menu-item-111:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: translate(0, 0);
+}
+#header_block nav ul > li > ul {
+  position: absolute;
+  top: 60px;
+  min-width: 150px;
+  padding: 5px 2px;
+  display: block;
+  background-color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+  transform: translate(0, 10px);
+  box-shadow: 0px 10px 10px 5px rgb(0 0 0 / 5%);
+  transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
+  margin-top: 14px;
+}
+.page-id-5 #header_block nav ul > li > ul {
+  background-color: #1f2335 !important;
+  color: #ffffff;
+}
+
+.page-id-5 #header_block nav ul > li > ul li a {
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 20px 15px;
+}
+
+/* #header_block nav a {
+  border-bottom: 1px solid red;
+  padding-bottom: 35px;
+  color: red;
+} */
+.otherPages #header_block nav .current-menu-item a,
+.otherPages #header_block nav .current-menu-ancestor a,
+.otherPages
+  #header_block
+  nav
+  .current-menu-ancestor
+  .sub-menu
+  .current-menu-item
+  a {
+  color: red;
+  border-bottom: 1px solid red;
+  padding-bottom: 30px;
+}
+.otherPages #header_block nav .current-menu-item .sub-menu li a,
+.otherPages #header_block nav .current-menu-ancestor .sub-menu li a {
+  color: black;
+  border-bottom: 1px solid #f5f5f5;
+}
+.otherPages #header_block nav .sub-menu li a,
+.otherPages #header_block nav .sub-menu li a {
+  padding: 15px;
+  padding-left: 20px;
+  border-bottom: 1px solid #f5f5f5;
+}
+/* #homepage #header_block nav ul > li > ul {
+  background-color: #1f2335;
+  color: white !important;
+} */
+#header_block .menu-item-111 a::after {
+  content: url(https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/black-arrow.svg);
+  border: 0 !important;
+  transform: rotate(90deg);
+  margin-left: 10px;
+}
+#header_block .menu-item-112 a:after {
+  content: url(https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/black-arrow.svg);
+  border: 0 !important;
+  transform: rotate(90deg);
+  margin-left: 10px;
+}
+.nav_search {
+  list-style: none;
+}
+#header_block .current-menu-item:nth-child(-n + 2) a::after {
+  content: url(https://mkh-bremen.c-1955.maxcluster.net/wp-content/uploads/2022/09/red-arrow.svg);
+  border: 0 !important;
+  transform: rotate(90deg);
+  margin-left: 10px;
+}
+#header_block .menu-item .menu-item-116 a::after,
+#header_block .menu-item .menu-item-119 a::after,
+#header_block .menu-item .menu-item-1441 a::after,
+#header_block .menu-item .menu-item-120 a::after,
+#header_block .menu-item .menu-item-121 a::after,
+#header_block .menu-item .menu-item-1439 a::after,
+#header_block .menu-item .menu-item-128 a::after,
+#header_block .menu-item .menu-item-123 a::after,
+#header_block .menu-item .menu-item-127 a::after,
+#header_block .menu-item .menu-item-124 a::after,
+#header_block .menu-item .menu-item-126 a::after {
+  content: "";
+}
+#slider_content .slick-dots {
+  position: absolute;
+  bottom: 2%;
+  display: flex;
+  display: -webkit-flex;
+  color: #ea2129;
+  font-family: "Axiforma-Medium";
+  font-size: 16px;
+  right: 200px;
+  align-items: center;
+  padding: 0;
+}
+#slider_content .slick-dots li {
+  display: block;
+}
+#home_slider #slider_content .slick-dots li button:before {
+  content: "";
+}
+#slider_content .count_item {
+  display: none;
+}
+#home_slider #slider_content .slick-dots li button {
+  background: transparent;
+  border: transparent;
+  color: #ea2129;
+  opacity: 0.5;
+  position: relative;
+}
+#home_slider .slick-dots {
+  width: 13%;
+  justify-content: space-between;
+}
+#home_slider #slider_content .slick-dots li.slick-active button {
+  opacity: 1;
+  font-size: 18px;
+}
+#home_slider #slider_content .slick-dots li button:before {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 2px;
+  background: red;
+  left: 100%;
+  position: absolute;
+  top: 40%;
+}
+#home_slider #slider_content .slick-dots li:last-child button:before {
+  display: none;
+}
+
+/* //contact form */
+#contact .wpcf7-form-control {
+  width: 100%;
+  background: #f6f6f6;
+  border: 1px solid #f6f6f6;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+#contact .wpcf7 {
+  /* display: flex;
+  justify-content: space-evenly; */
+}
+#contact #contact_form textarea {
+  height: 155px;
+}
+#contact .wpcf7-submit {
+  width: 100%;
+  background: #ea2129;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Axiforma-SemiBold";
+  padding: 15px;
+  border: 1px solid #ea2129;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: baseline;
+}
+#contact label {
+  margin-bottom: 0;
+  width: 100%;
+}
+#contact .wpcf7-form-control:focus {
+  border: 1px solid #ea2129 !important;
+  background: #fdfafa;
+  outline: none;
+}
+.contact-form {
+  width: 48%;
+}
+.field-button {
+  width: 48%;
+}
+#contact .wpcf7-form {
+  display: flex;
+  justify-content: space-between;
+}
+#contact .wpcf7-textarea {
+  height: 23vh;
+}
+#contact .wpcf7-submit:focus {
+  background: unset !important;
+}
